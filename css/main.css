@@ -1,0 +1,25 @@
+
+.navbar-brand
+{
+   font-size: 30px;
+	color:#fff;
+}
+.badge
+{
+	color: #c4e3f7
+}
+.navbar
+{
+	background-color:#000;
+	color: aliceblue;
+}
+.navbar-nav li a
+{
+	color: aliceblue;
+}
+
+
+.navbar-right
+{
+	
+}
