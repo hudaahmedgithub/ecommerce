@@ -15,11 +15,28 @@ $password=md5($_POST["password"]);
 		$row=mysqli_fetch_array($run_query);
 		    $_SESSION["uid"]=$row["id"];
 			$_SESSION["name"]=$row["f_name"];
-		echo "true";
-		header("location:index2.php");
+		
+		header("location:categories.php");
 		
 		}
-	else
+	else 
+		{
+			$error="incorrect password or email";
+		}
+		
+	$sql="select * from user_info where email='$email' and password='$password' and role='2'";
+	$run_query=mysqli_query($conn,$sql);
+	$count=mysqli_num_rows($run_query);
+	if($count==1)
+	{
+		$row=mysqli_fetch_array($run_query);
+		    $_SESSION["uid"]=$row["id"];
+			$_SESSION["name"]=$row["f_name"];
+		echo "true";
+		header("location:category2.php");
+		
+		}
+	else 
 		{
 			$error="incorrect password or email";
 		}
