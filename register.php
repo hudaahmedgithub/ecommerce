@@ -42,7 +42,7 @@ if(!preg_match($name,$l_name))
 	";
 	exit();
 }
-if (!filter_var($email, FILTER_VALIDATE_EMAIL))
+if (!filter_var($email,FILTER_VALIDATE_EMAIL))
 {
 	echo "
 	<div class='alert alert-warning'>

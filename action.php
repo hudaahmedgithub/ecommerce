@@ -6,7 +6,7 @@ if(isset($_POST["category"]))
 	$category_query="select * from categories";
 	$run_query=mysqli_query($conn,$category_query);
 	echo "	<div class='nav nav-pills nav-stacked'>
-						<li style='background:#000;'><a href='#'><h4 style='color:#c4e3f7'>&nbsp;&nbsp;&nbsp;&nbsp;Categories&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4></a></li>";
+						<li style='background:#000;'><a href='#'><h4 style='color:#d03'>&nbsp;&nbsp;&nbsp;&nbsp;Categories&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4></a></li>";
 	
 	if(mysqli_num_rows($run_query)>0)
 	{
@@ -26,7 +26,7 @@ if(isset($_POST["category"]))
 	$brand_query="select * from brands";
 	$run_query=mysqli_query($conn,$brand_query);
 	echo "	<div class='nav nav-pills nav-stacked'>
-						<li style='background:#000;'><a href='#'><h4 style='color:#c4e3f7'>&nbsp;&nbsp;&nbsp;&nbsp;Brands&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4></a></li>";
+						<li style='background:#000;'><a href='#'><h4 style='color:#d03'>&nbsp;&nbsp;&nbsp;&nbsp;Brands&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4></a></li>";
 	
 	if(mysqli_num_rows($run_query)>0)
 	{

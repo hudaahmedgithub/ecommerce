@@ -23,3 +23,113 @@
 {
 	
 }
+/*footer*/
+
+.foot
+{
+   height: 500px; 
+    background: #000
+}
+.foot h3
+{
+    color: #cff;
+    font-size: 25px;
+}
+.foot p
+{
+    color: #fff;
+    font-size: 20px;
+}
+.foot i
+{
+    font-size: 50px;
+    color: #f90
+}
+.foot .oo
+{
+    width: 30%;
+    margin-left:20px;
+}
+.foot .tt
+{
+    width: 25%;
+    
+}
+.tt h2
+{
+    color: #ecc
+}
+.tt button
+{
+    width: auto;
+    height: 40px;
+    background: #f90;
+    color: #fff;
+    font-size: 17px;
+    margin-top: 10px;
+}
+.rr h2{
+    color: #fff;
+}
+.foot .rr img
+{
+    width: 130px;
+}
+
+.foont
+{
+font-size: 50px;
+text-align: center;
+color: #eff;
+padding: 0 20px;
+
+}
+.f2
+{
+  
+    width: 70%;
+}
+.f2 nav .nav-list {
+    list-style: none;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.f2 nav .nav-list .list a {
+    display: block;
+    padding: 15px 0;
+    margin: 9px 0;
+	font-size:20px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out ;  
+}
+
+.f2 nav .nav-list .list a:hover {
+    color: #f90;
+}
+.copy
+{
+    background: #000;
+    color: #fff;
+    text-align: center;
+    margin-top: -30px;
+    height: 100px;
+    padding-top:30px;
+}
+.scrollTop
+{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    line-height: 40px;
+    width: 60px;
+    height: 60px;
+    background: #f90;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    display: none;
+    
+}

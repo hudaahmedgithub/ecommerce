@@ -278,5 +278,10 @@ function cart_checkout()
 			}
 		})
 	}
-					 )
+)
+	   $('.scrollTop').click(function(){
+        $('body,html').animate({
+            scrollTop : 0
+        },500);
+    });
 })
